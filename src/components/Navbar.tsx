@@ -114,8 +114,7 @@ function ResponsiveAppBar() {
                     textDecoration: "none",
                     fontSize: "13px",
                   }}
-                  style={{ scrollBehavior: "smooth" }}
-a
+
                 >
                   {page}
                 </Typography>

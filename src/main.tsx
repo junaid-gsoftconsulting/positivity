@@ -9,6 +9,8 @@ import "@fontsource/roboto/700.css";
 import { ThemeProvider } from "@mui/material";
 import theme from "./components/theme/Theme.ts";
 
+
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ThemeProvider theme={theme}>

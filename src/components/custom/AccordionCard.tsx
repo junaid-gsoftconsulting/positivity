@@ -21,6 +21,7 @@ const AccordionCard = ({
   const [expanded, setExpanded] = React.useState<string | false>("false");
   const handleChange =
     (acc: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
+      event.preventDefault(); 
       setExpanded(isExpanded ? acc : false);
     };
 
