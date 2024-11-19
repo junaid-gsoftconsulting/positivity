@@ -2,9 +2,6 @@ import { Box } from "@mui/material";
 import TestimonialsCard from "./custom/TestimonialsCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import data from "../data.json";
-
-// Import Swiper styles
-
 import { Pagination } from "swiper/modules";
 
 const Testimonials = () => {

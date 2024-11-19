@@ -1,8 +1,6 @@
 import { Box, Divider } from "@mui/material";
 import CaseStudiesCard from "./custom/CaseStudiesCard";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import "swiper/css";
-// import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import CustomHeading from "./custom/CustomHeading";
 import data from "../data.json";
