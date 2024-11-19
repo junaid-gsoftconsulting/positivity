@@ -25,6 +25,11 @@ export default function TestimonialsCard({
           borderRadius: 4,
           bgcolor: "#191A23",
           color: "white",
+          fontSize: {
+            xs: ".8rem",
+            md: ".7rem",
+            lg:"1rem"
+          },
         }}
       >
         <CardContent sx={{}}>{description}</CardContent>

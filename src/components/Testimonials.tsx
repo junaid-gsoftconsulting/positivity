@@ -20,6 +20,7 @@ const Testimonials = () => {
             md: "250px",
             lg: "300px",
           },
+          
         }}
       >
         <Swiper

@@ -81,10 +81,11 @@ function ResponsiveAppBar() {
               <Box
                 sx={{
                   width: 800,
+                  
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                  <MenuItem href={`#${page}`} key={page} onClick={handleCloseNavMenu}  >
                     <Typography textAlign="center">{page}</Typography>
                   </MenuItem>
                 ))}

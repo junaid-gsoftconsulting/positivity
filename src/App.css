@@ -1,6 +1,14 @@
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins Regular"), url("/assets/fonts/Poppins Regular 400.ttf") format("truetype");
+
+}
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
+
 .swiper-pagination-bullet > img {
   content: url("../public/assets/bullets/customBullet.svg");
 }
