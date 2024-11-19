@@ -41,7 +41,6 @@ const Testimonials = () => {
             },
           }}
           modules={[Pagination]}
-          navigation
           className="mySwiper"
           style={{
             paddingTop: 10,
