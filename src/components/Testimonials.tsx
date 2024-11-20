@@ -25,7 +25,6 @@ const Testimonials = () => {
       >
         <Swiper
           slidesPerView={2.3}
-          // centeredSlides={true}
           spaceBetween={30}
           pagination={{
             type: "bullets",
